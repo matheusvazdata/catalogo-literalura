@@ -1,10 +1,8 @@
-# 📚 Catálogo Literalura
+# Catálogo Literalura
 
 Projeto desenvolvido em Java com Spring Boot para consumir dados da [API Gutendex](https://gutendex.com/) e persistir livros e autores em um banco de dados PostgreSQL, com funcionalidades de consulta e estatísticas.
 
----
-
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot 3.5.3
@@ -12,9 +10,7 @@ Projeto desenvolvido em Java com Spring Boot para consumir dados da [API Gutende
 - PostgreSQL
 - Maven
 
----
-
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - Buscar livros por título via API Gutendex
 - Persistir livros e autores no banco de dados
@@ -23,9 +19,7 @@ Projeto desenvolvido em Java com Spring Boot para consumir dados da [API Gutende
 - Consultar autores vivos em determinado ano
 - Exibir estatísticas por idioma dos livros salvos
 
----
-
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
 
@@ -55,9 +49,7 @@ spring.datasource.password=sua_senha
 ./mvnw spring-boot:run
 ```
 
----
-
-## 🧪 Exemplo de Uso
+## Exemplo de Uso
 
 ```
 --- CATÁLOGO LITERALURA ---
@@ -69,9 +61,7 @@ spring.datasource.password=sua_senha
 0 - Sair
 ```
 
----
-
-## ✅ Status do Projeto
+## Status do Projeto
 
 ✔️ Funcionalidades principais implementadas
 🚧 Melhorias futuras planejadas:
@@ -81,8 +71,17 @@ spring.datasource.password=sua_senha
 * Interface gráfica (JavaFX ou Web)
 * Integração com Docker
 
----
+## Melhorias Futuras
 
-## 📌 Autor
+O projeto ainda está em desenvolvimento e receberá aprimoramentos, como:
+
+- [ ] Validação mais robusta dos dados retornados da API Gutendex
+- [ ] Tratamento completo para livros sem autor ou com dados incompletos
+- [ ] Filtro de autores por nacionalidade e século de nascimento
+- [ ] Testes automatizados com JUnit e Spring Boot Test
+- [ ] Paginação na listagem de livros e autores
+- [ ] Internacionalização (i18n) para outros idiomas
+
+## Autor
 
 Desenvolvido por Matheus Vaz no programa ONE | Alura + Oracle.
